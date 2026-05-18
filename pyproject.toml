@@ -1,0 +1,10 @@
+[project]
+name = "job-scout-agent"
+version = "0.1.0"
+description = "Resume-aware job discovery agent with portal provider adapters and ATS analyzer handoff."
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
